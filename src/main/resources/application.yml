@@ -9,7 +9,6 @@ spring:
           test-out-0:
             producer:
               sync: true
-              sendTimeoutExpression: 1000
         binder:
           brokers: localhost:9092
           configuration:
