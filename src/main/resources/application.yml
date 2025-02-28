@@ -2,11 +2,11 @@ spring:
   cloud:
     stream:
       bindings:
-        test-out-0:
+        test:
           error-handler-definition: myErrorHandler
       kafka:
         bindings:
-          test-out-0:
+          test:
             producer:
               sync: true
         binder:
